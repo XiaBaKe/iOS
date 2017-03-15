@@ -35,9 +35,12 @@ typedef NS_ENUM(NSInteger, PanType){
     self = [super init];
     if(self){
         self.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+        self.backgroundColor = [UIColor purpleColor];
         [self setImageViewWithImage:image];
+        
         [self initCropView];
         [self initCoverViews];
+        
         [self setTouchRects];
         [self bindGestureRecognizer];
         _imageViewOriginFrame = _imageView.frame;
@@ -92,9 +95,9 @@ typedef NS_ENUM(NSInteger, PanType){
         UIView *coverView = [self getCoverView];
         [_coverViews addObject:coverView];
         [self addSubview:coverView];
-        [self sendSubviewToBack:coverView];
     }
     [self layoutCoverViews];
+    [self bringSubviewToFront:_cropView];
 }
 
 - (UIView *)getDecoraterView{

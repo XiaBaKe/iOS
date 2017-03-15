@@ -35,7 +35,7 @@
                                             <action selector="reflash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zij-0I-4X8"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="CropView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTo-ID-6CC">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CropView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTo-ID-6CC">
                                         <rect key="frame" x="150.5" y="32" width="73.5" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -56,12 +56,13 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="t1s-rH-JsG" firstAttribute="leading" secondItem="ZVx-r2-IMM" secondAttribute="leading" id="1wB-cv-9gJ"/>
-                                    <constraint firstItem="kTo-ID-6CC" firstAttribute="centerX" secondItem="ZVx-r2-IMM" secondAttribute="centerX" id="3yP-3G-lHZ"/>
                                     <constraint firstAttribute="height" constant="64" id="D8c-cU-djG"/>
                                     <constraint firstItem="t1s-rH-JsG" firstAttribute="top" secondItem="ZVx-r2-IMM" secondAttribute="top" constant="20" id="QEd-OI-dQL"/>
+                                    <constraint firstItem="kTo-ID-6CC" firstAttribute="centerY" secondItem="yyh-be-zvf" secondAttribute="centerY" id="W7O-FZ-sP2"/>
                                     <constraint firstAttribute="bottom" secondItem="yyh-be-zvf" secondAttribute="bottom" id="Zqr-Ee-3ye"/>
                                     <constraint firstAttribute="trailing" secondItem="yyh-be-zvf" secondAttribute="trailing" id="d3k-zs-4l7"/>
                                     <constraint firstAttribute="bottom" secondItem="t1s-rH-JsG" secondAttribute="bottom" id="dWw-sB-8bR"/>
+                                    <constraint firstItem="kTo-ID-6CC" firstAttribute="centerX" secondItem="ZVx-r2-IMM" secondAttribute="centerX" id="sL6-tQ-Sw0"/>
                                     <constraint firstItem="yyh-be-zvf" firstAttribute="top" secondItem="ZVx-r2-IMM" secondAttribute="top" constant="20" id="tB4-4a-jnb"/>
                                 </constraints>
                             </view>
