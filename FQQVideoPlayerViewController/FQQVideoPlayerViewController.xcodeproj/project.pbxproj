@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45A7C611E77B09D0022D1CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A7C601E77B09D0022D1CC /* main.m */; };
+		C45A7C641E77B09D0022D1CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A7C631E77B09D0022D1CC /* AppDelegate.m */; };
+		C45A7C671E77B09D0022D1CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A7C661E77B09D0022D1CC /* ViewController.m */; };
+		C45A7C6A1E77B09D0022D1CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45A7C681E77B09D0022D1CC /* Main.storyboard */; };
+		C45A7C6C1E77B09D0022D1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45A7C6B1E77B09D0022D1CC /* Assets.xcassets */; };
+		C45A7C6F1E77B09D0022D1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45A7C6D1E77B09D0022D1CC /* LaunchScreen.storyboard */; };
+		C45A7C781E77B0B40022D1CC /* FQQVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A7C771E77B0B40022D1CC /* FQQVideoPlayerViewController.m */; };
+		C45A7C7C1E77BA540022D1CC /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A7C7A1E77BA540022D1CC /* BottomView.m */; };
+		C45A7C7D1E77BA540022D1CC /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45A7C7B1E77BA540022D1CC /* BottomView.xib */; };
+		C45A7C801E77BB460022D1CC /* btn_video_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C45A7C7E1E77BB460022D1CC /* btn_video_play@2x.png */; };
+		C45A7C811E77BB460022D1CC /* tab_progress_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C45A7C7F1E77BB460022D1CC /* tab_progress_dot@2x.png */; };
+		C45A7C831E77BDA30022D1CC /* btn_video_stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C45A7C821E77BDA30022D1CC /* btn_video_stop@2x.png */; };
+		C45A7C851E77DA0B0022D1CC /* bg_progress-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C45A7C841E77DA0B0022D1CC /* bg_progress-bar@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C45A7C5C1E77B09D0022D1CC /* FQQVideoPlayerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQQVideoPlayerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45A7C601E77B09D0022D1CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C45A7C621E77B09D0022D1CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C45A7C631E77B09D0022D1CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C45A7C651E77B09D0022D1CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C45A7C661E77B09D0022D1CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C45A7C691E77B09D0022D1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45A7C6B1E77B09D0022D1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45A7C6E1E77B09D0022D1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45A7C701E77B09D0022D1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45A7C761E77B0B40022D1CC /* FQQVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQQVideoPlayerViewController.h; sourceTree = "<group>"; };
+		C45A7C771E77B0B40022D1CC /* FQQVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQQVideoPlayerViewController.m; sourceTree = "<group>"; };
+		C45A7C791E77BA540022D1CC /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		C45A7C7A1E77BA540022D1CC /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		C45A7C7B1E77BA540022D1CC /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		C45A7C7E1E77BB460022D1CC /* btn_video_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_video_play@2x.png"; sourceTree = "<group>"; };
+		C45A7C7F1E77BB460022D1CC /* tab_progress_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_progress_dot@2x.png"; sourceTree = "<group>"; };
+		C45A7C821E77BDA30022D1CC /* btn_video_stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_video_stop@2x.png"; sourceTree = "<group>"; };
+		C45A7C841E77DA0B0022D1CC /* bg_progress-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_progress-bar@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45A7C591E77B09D0022D1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45A7C531E77B09D0022D1CC = {
+			isa = PBXGroup;
+			children = (
+				C45A7C5E1E77B09D0022D1CC /* FQQVideoPlayerViewController */,
+				C45A7C5D1E77B09D0022D1CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45A7C5D1E77B09D0022D1CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45A7C5C1E77B09D0022D1CC /* FQQVideoPlayerViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45A7C5E1E77B09D0022D1CC /* FQQVideoPlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C45A7C621E77B09D0022D1CC /* AppDelegate.h */,
+				C45A7C631E77B09D0022D1CC /* AppDelegate.m */,
+				C45A7C651E77B09D0022D1CC /* ViewController.h */,
+				C45A7C661E77B09D0022D1CC /* ViewController.m */,
+				C45A7C681E77B09D0022D1CC /* Main.storyboard */,
+				C45A7C761E77B0B40022D1CC /* FQQVideoPlayerViewController.h */,
+				C45A7C771E77B0B40022D1CC /* FQQVideoPlayerViewController.m */,
+				C45A7C791E77BA540022D1CC /* BottomView.h */,
+				C45A7C7A1E77BA540022D1CC /* BottomView.m */,
+				C45A7C7B1E77BA540022D1CC /* BottomView.xib */,
+				C45A7C7E1E77BB460022D1CC /* btn_video_play@2x.png */,
+				C45A7C7F1E77BB460022D1CC /* tab_progress_dot@2x.png */,
+				C45A7C821E77BDA30022D1CC /* btn_video_stop@2x.png */,
+				C45A7C841E77DA0B0022D1CC /* bg_progress-bar@2x.png */,
+				C45A7C6B1E77B09D0022D1CC /* Assets.xcassets */,
+				C45A7C6D1E77B09D0022D1CC /* LaunchScreen.storyboard */,
+				C45A7C701E77B09D0022D1CC /* Info.plist */,
+				C45A7C5F1E77B09D0022D1CC /* Supporting Files */,
+			);
+			path = FQQVideoPlayerViewController;
+			sourceTree = "<group>";
+		};
+		C45A7C5F1E77B09D0022D1CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C45A7C601E77B09D0022D1CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45A7C5B1E77B09D0022D1CC /* FQQVideoPlayerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45A7C731E77B09D0022D1CC /* Build configuration list for PBXNativeTarget "FQQVideoPlayerViewController" */;
+			buildPhases = (
+				C45A7C581E77B09D0022D1CC /* Sources */,
+				C45A7C591E77B09D0022D1CC /* Frameworks */,
+				C45A7C5A1E77B09D0022D1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQQVideoPlayerViewController;
+			productName = FQQVideoPlayerViewController;
+			productReference = C45A7C5C1E77B09D0022D1CC /* FQQVideoPlayerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45A7C541E77B09D0022D1CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "冯清泉";
+				TargetAttributes = {
+					C45A7C5B1E77B09D0022D1CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C45A7C571E77B09D0022D1CC /* Build configuration list for PBXProject "FQQVideoPlayerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45A7C531E77B09D0022D1CC;
+			productRefGroup = C45A7C5D1E77B09D0022D1CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45A7C5B1E77B09D0022D1CC /* FQQVideoPlayerViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45A7C5A1E77B09D0022D1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45A7C6F1E77B09D0022D1CC /* LaunchScreen.storyboard in Resources */,
+				C45A7C811E77BB460022D1CC /* tab_progress_dot@2x.png in Resources */,
+				C45A7C851E77DA0B0022D1CC /* bg_progress-bar@2x.png in Resources */,
+				C45A7C6C1E77B09D0022D1CC /* Assets.xcassets in Resources */,
+				C45A7C7D1E77BA540022D1CC /* BottomView.xib in Resources */,
+				C45A7C831E77BDA30022D1CC /* btn_video_stop@2x.png in Resources */,
+				C45A7C801E77BB460022D1CC /* btn_video_play@2x.png in Resources */,
+				C45A7C6A1E77B09D0022D1CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45A7C581E77B09D0022D1CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45A7C781E77B0B40022D1CC /* FQQVideoPlayerViewController.m in Sources */,
+				C45A7C7C1E77BA540022D1CC /* BottomView.m in Sources */,
+				C45A7C671E77B09D0022D1CC /* ViewController.m in Sources */,
+				C45A7C641E77B09D0022D1CC /* AppDelegate.m in Sources */,
+				C45A7C611E77B09D0022D1CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C45A7C681E77B09D0022D1CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45A7C691E77B09D0022D1CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45A7C6D1E77B09D0022D1CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45A7C6E1E77B09D0022D1CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45A7C711E77B09D0022D1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45A7C721E77B09D0022D1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45A7C741E77B09D0022D1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FQQVideoPlayerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fqq.FQQVideoPlayerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C45A7C751E77B09D0022D1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FQQVideoPlayerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fqq.FQQVideoPlayerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45A7C571E77B09D0022D1CC /* Build configuration list for PBXProject "FQQVideoPlayerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45A7C711E77B09D0022D1CC /* Debug */,
+				C45A7C721E77B09D0022D1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45A7C731E77B09D0022D1CC /* Build configuration list for PBXNativeTarget "FQQVideoPlayerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45A7C741E77B09D0022D1CC /* Debug */,
+				C45A7C751E77B09D0022D1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45A7C541E77B09D0022D1CC /* Project object */;
+}
