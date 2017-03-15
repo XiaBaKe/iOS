@@ -44,14 +44,6 @@ typedef NS_ENUM(NSInteger, PlayerStatu){
     [self initBottomView];
 }
 
-- (void)viewWillAppear:(BOOL)animated{
-    [[UIApplication sharedApplication]setStatusBarHidden:YES];
-}
-
-- (void)viewWillDisappear:(BOOL)animated{
-    [[UIApplication sharedApplication]setStatusBarHidden:NO];
-}
-
 - (void)viewDidAppear:(BOOL)animated{
     if([self isIOS10_1]){
         [self initAVPlayer];
