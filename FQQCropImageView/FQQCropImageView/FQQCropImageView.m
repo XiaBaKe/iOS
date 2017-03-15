@@ -37,10 +37,8 @@ typedef NS_ENUM(NSInteger, PanType){
         self.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
         self.backgroundColor = [UIColor purpleColor];
         [self setImageViewWithImage:image];
-        
         [self initCropView];
         [self initCoverViews];
-        
         [self setTouchRects];
         [self bindGestureRecognizer];
         _imageViewOriginFrame = _imageView.frame;
@@ -152,7 +150,7 @@ typedef NS_ENUM(NSInteger, PanType){
     temp.origin.x += _cropView.frame.size.width;
     _rightBorder = temp;
     
-    _cropRect = CGRectMake(self.concer1.origin.x + TouchRectSide, self.concer1.origin.y + TouchRectSide, _cropView.frame.size.width - TouchRectSide, _cropView.frame.size.height - TouchRectSide);
+    _cropRect = CGRectMake(_concer1.origin.x + TouchRectSide, _concer1.origin.y + TouchRectSide, _cropView.frame.size.width - TouchRectSide, _cropView.frame.size.height - TouchRectSide);
 }
 
 #pragma mark - GestureRecognizer
@@ -398,7 +396,6 @@ typedef NS_ENUM(NSInteger, PanType){
             }
         }
     }
-    
     _imageView.frame = nextImageFrame;
     recognizer.scale = 1.0;
 }
